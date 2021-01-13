@@ -1,0 +1,30 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.flex-item {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+mat-accordion {
+    width: 40%;
+}
+
+table {
+    width: 100%;
+    tr td {
+        text-align: center;
+    }
+}
+
+h1 {
+    color: white;
+}
